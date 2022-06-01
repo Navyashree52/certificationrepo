@@ -123,7 +123,7 @@ public class FilpkartExample {
 			driver.findElement(By.className("_3SkBxJ")).click();
 		}
 		
-		@AfterClass
+		@Test(priority=11)
 		public void closeBrowser() {
 			driver.quit();
 		}
